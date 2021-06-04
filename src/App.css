@@ -1,6 +1,47 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
+  display: flex;
 }
+
+
+.textarea{
+  width: 50%;
+  height: 100vh;
+  padding: 20px;
+  font-size: 2rem;
+  outline: none;
+}
+
+
+.markdown{
+  width: 50%;
+  height: 100vh;
+  padding: 20px;
+  background-color: beige;
+
+}
+
+
+.floatButton{
+  position:fixed;
+  right:0;
+  bottom:0;
+}
+
+.circle-div {
+  /*background-color: #314963;*/
+  /*height: 40px;*/
+  /*width: 40px;*/
+  /*border-radius: 100%;*/
+  position: fixed;
+  bottom: 21px;
+  right: 25px;
+}
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;

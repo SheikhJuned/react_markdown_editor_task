@@ -31,7 +31,7 @@ router.post("/create", verify,  async (req, res) => {
   try {
     const savedmarkdownpost = await markdownpost.save();
     // console.log(savedmarkdownpost);
-    res.send({ status: "success" });
+    res.send({ status: "success" ,markdown:savedmarkdownpost});
   } catch (err) {
     res.status(400).send(err);
   }

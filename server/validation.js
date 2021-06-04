@@ -19,7 +19,7 @@ const loginValidation = (data) => {
 
 const markdownCreateValidation = (data) => {
   const schema = Joi.object({
-    title: Joi.string().min(6).required(),
+    title: Joi.string().min(0).required(),
     markdown: Joi.string().min(0).required()
   });
   return schema.validate(data);
